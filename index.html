@@ -148,7 +148,7 @@
      AFRAME.registerComponent('vidhandler', {
          init: function () {
           this.toggle = false;
-          document.querySelector("#vid").pause(); //reference to the video
+          document.querySelector("#vid").play(); //reference to the video
          },
          tick:function(){  
          if(document.querySelector("a-marker").object3D.visible == true){
